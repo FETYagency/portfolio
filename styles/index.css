@@ -324,6 +324,12 @@ figcaption>p{
 
 
 @media(max-width:600px){
+
+    .skills__header{
+        font-size: clamp(1.5rem, 8vw, var(--FS-HM));
+        line-height: clamp(1.5rem, 8vw, var(--LS-HM));
+    }
+
     .features{
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(6, 180px);
